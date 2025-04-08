@@ -7,5 +7,6 @@ public class MyJava {
         System.out.println("202430219 이동주");
         System.out.println("202430219");
         System.out.println("이동주");
+        System.out.println();
     }
 }
