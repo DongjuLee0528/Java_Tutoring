@@ -8,5 +8,6 @@ public class MyJava {
         System.out.println("202530127");
         System.out.println("정원영");
 
+
     }
 }
