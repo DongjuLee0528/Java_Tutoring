@@ -16,6 +16,7 @@ public class Week2 {
         System.out.print("좋아하는 색깔을 입력하세요:");
         String color = scanner.nextLine();
 
-        System.out.println("안녕하세요!" + name +"님," + age + "살이시군요. 좋아하는 색깔은 " + color +"이네요!");
+        System.out.println("\n[출력결과]");
+        System.out.println("안녕하세요!" + name +"님," + age + "살이시군요. 좋아하는 색깔은 " + color +"이네요!!");
     }
 }
