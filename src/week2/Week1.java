@@ -18,6 +18,6 @@ public class Week1 {
         String strColor = scanner.nextLine();
 
 
-        System.out.print("안녕하세요!" + str +"님,"+age+"살이시군요.좋아하는 색깔은"+strColor+"이네요!\n");
+        System.out.print("안녕하세요!" + str +"님,"+age+"살이시군요.좋아하는 색깔은"+strColor+"이네요!!!!\n");
     }
 }
