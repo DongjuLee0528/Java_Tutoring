@@ -7,14 +7,14 @@ public class ReverseNumber {
         Scanner sc = new Scanner(System.in);
 
         int n = sc.nextInt();
-        int newNum = 0;
+        int reverseNum = 0;
 
         while (n != 0) {
-            newNum *= 10;
-            newNum += (n % 10);
+            reverseNum *= 10;
+            reverseNum += (n % 10);
             n /= 10;
         }
 
-        System.out.println(newNum);
+        System.out.println(reverseNum);
     }
 }
