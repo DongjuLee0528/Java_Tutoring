@@ -10,11 +10,9 @@ public class ReverseNumber {
         int reverseNum = 0;
 
         while (n != 0) {
-            reverseNum *= 10;
-            reverseNum += (n % 10);
+            reverseNum = (n % 10);
             n /= 10;
+            System.out.print(reverseNum);
         }
-
-        System.out.println(reverseNum);
     }
 }
